@@ -1,0 +1,39 @@
+@media (min-width: 640px) {
+  #menu {
+    display: none;
+  }
+
+  .top-header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px 0;
+  }
+
+  .navigation {
+    display: block;
+    border-top: none;
+  }
+
+  .navigation.open {
+    display: block;
+  }
+
+  .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  .navigation a {
+    border-radius: 6px;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+  }
+}
